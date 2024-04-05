@@ -1,39 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Celebrity Guessing Game
 
-Welcome,
+Welcome to the Celebrity Guessing Game, a fun and interactive console-based game where you pit two celebrities against each other and guess who has more followers on social media! This game utilizes data from a variety of celebrities to create an engaging experience that tests your knowledge of popular figures.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+- **Compare Celebrities**: Guess which celebrity has more followers between two options.
+- **Score Tracking**: Keeps track of how many guesses you've gotten right.
+- **Clean Interface**: Each round clears the console for a fresh start, keeping the game area neat.
 
-## Codeanywhere Reminders
+## Getting Started
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Prerequisites
 
-`python3 -m http.server`
+Before you start, ensure you have Python installed on your machine. This game is built with Python 3, so any Python 3 version should be compatible. You can download Python [here](https://www.python.org/downloads/).
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Installation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+To get the game running on your local machine, follow these simple steps:
 
-`http_server`
+1. Clone the repository or download the source code to your local machine.
+    ```
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory.
+    ```
+    cd celebrity-guessing-game
+    ```
+3. Run the game with Python.
+    ```
+    python main.py
+    ```
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## How to Play
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. When the game starts, you'll be presented with two celebrities, labeled A and B, along with a brief description.
+2. Type `A` if you think celebrity A has more followers, or `B` if you believe celebrity B does.
+3. Press Enter to submit your guess.
+4. The game will inform you if you're right and what your current score is. If you're wrong, the game ends and your final score is displayed.
+5. Continue guessing as long as you can to achieve a high score!
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Contributing
 
-To log into the Heroku toolbelt CLI:
+Feel free to fork the project and submit pull requests. Your contributions are highly appreciated!
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Enjoy playing the Celebrity Guessing Game, and may your guesses always be right!
